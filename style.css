@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300;1,9..144,500&family=Inter:wght@300;400;500&family=Piazzolla:ital,opsz,wght@0,8..30,400;0,8..30,600;1,8..30,400;1,8..30,600&display=swap');
+
+body {
+    font-family: Fraunces;
+    /* background-color: #E6C519;  */
+}
+
+.wrapper {
+    max-width: 500px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+a, a:visited {
+    color: #E900CF;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+
+.btn {
+    text-decoration: none;
+    border: 1px solid #E900CF;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    transition: all 500ms ease;
+}
+
+.btn:hover {
+    background-color: #E900CF;
+    color: #fff;
+}
+
+h1 {
+    font-size: 10rem;
+    line-height: .9;
+}
+
+h1 span {
+    font-size: 4rem;
+    display: block;
+    font-weight: 300;
+}
+
+h2 {
+    color: #E900CF;
+
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.card {
+    padding: 1rem 1.5rem;
+    margin-bottom:1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5rem #E900CF11;
+    transition: box-shadow 500ms ease;
+    color: #E900CF;
+
+}
+
+.card:hover {
+    box-shadow: 0 0 5rem #E900CF33;
+}
+
+.concert {
+    width: 38%;
+}
+
+/* 
+.concert > div {
+    margin-right: .1rem;
+} */
+
+.concert .tickets {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .cards {
+        display: block;
+    }
+    .concert {
+        width: auto;
+    }
+}
