@@ -33,6 +33,14 @@ a {
     color: #fff;
 }
 
+header {
+    padding: 3rem 0;
+}
+
+section {
+    margin: 3rem 0;
+}
+
 h1 {
     font-size: 10rem;
     line-height: .9;
@@ -46,7 +54,8 @@ h1 span {
 
 h2 {
     color: #E900CF;
-
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -68,15 +77,6 @@ h2 {
 .card:hover {
     box-shadow: 0 0 5rem #E900CF33;
 }
-
-.concert {
-    width: 38%;
-}
-
-/* 
-.concert > div {
-    margin-right: .1rem;
-} */
 
 .concert .tickets {
     margin-top: 1rem;
