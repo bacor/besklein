@@ -20,6 +20,11 @@ a {
     border-bottom: 2px solid;
 }
 
+p {
+    font-weight: 300;
+    margin-bottom: 1rem;;
+}
+
 .btn {
     text-decoration: none;
     border: 1px solid #E900CF;
@@ -90,4 +95,10 @@ h2 {
     .concert {
         width: auto;
     }
+}
+
+.banner {
+    border-radius: 1em;
+    box-shadow: 0 0 5rem #E900CF33;
+    margin-bottom:  2rem;
 }
