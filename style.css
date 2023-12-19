@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300;1,9..144,500&family=Inter:wght@300;400;500&family=Piazzolla:ital,opsz,wght@0,8..30,400;0,8..30,600;1,8..30,400;1,8..30,600&display=swap');
 
+/* Roze: E900CF */
+
 body {
     font-family: Fraunces;
     /* background-color: #E6C519;  */
@@ -12,7 +14,7 @@ body {
 }
 
 a, a:visited {
-    color: #E900CF;
+    color: #514BC7;
 }
 
 a {
@@ -27,14 +29,14 @@ p {
 
 .btn {
     text-decoration: none;
-    border: 1px solid #E900CF;
+    border: 1px solid #514BC7;
     border-radius: 2rem;
     padding: .5rem 1rem;
     transition: all 500ms ease;
 }
 
 .btn:hover {
-    background-color: #E900CF;
+    background-color: #514BC7;
     color: #fff;
 }
 
@@ -58,7 +60,7 @@ h1 span {
 }
 
 h2 {
-    color: #E900CF;
+    color: #514BC7;
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
@@ -73,14 +75,14 @@ h2 {
     padding: 1rem 1.5rem;
     margin-bottom:1rem;
     border-radius: 1rem;
-    box-shadow: 0 0 5rem #E900CF11;
+    box-shadow: 0 0 5rem #514BC711;
     transition: box-shadow 500ms ease;
-    color: #E900CF;
+    color: #514BC7;
 
 }
 
 .card:hover {
-    box-shadow: 0 0 5rem #E900CF33;
+    box-shadow: 0 0 5rem #514BC733;
 }
 
 .concert .tickets {
@@ -99,7 +101,7 @@ h2 {
 
 .banner {
     border-radius: 1em;
-    box-shadow: 0 0 5rem #E900CF33;
+    box-shadow: 0 0 5rem #514BC733;
     margin-bottom:  2rem;
 }
 
