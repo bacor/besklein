@@ -108,3 +108,22 @@ h2 {
 .text-muted {
     color: #999;
 }
+
+blockquote {
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin: 3rem 0;
+    color: #514BC7
+}
+blockquote p {
+    margin-bottom: 0.5rem;
+}
+
+blockquote footer {
+    font-size: 1rem;
+    color: #999;
+}
+
+em {
+    font-style: italic;
+}
